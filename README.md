@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
-<title>Mapa pobudzenia i wartościowania bodźców</title>
+<title>A two-dimensional map of experimental stimuli</title>
 <script src="https://cdn.plot.ly/plotly-2.30.0.min.js"></script>
 
 <style>
@@ -204,16 +204,16 @@ Plotly.newPlot("plot", [{
         line: { color: "#000", width: 1 }
     }
 }], {
-    title: "Dwuwymiarowa mapa bodźców eksperymentalnych",
+    title: "A two-dimensional map of experimental stimuli",
     paper_bgcolor: "#111",
     plot_bgcolor: "#111",
     xaxis: {
-        title: "Wartościowanie (średnia)",
+        title: "Valence (mean)",
         color: "#eee",
         zerolinecolor: "#444"
     },
     yaxis: {
-        title: "Pobudzenie (średnia)",
+        title: "Arousal (mean)",
         color: "#eee",
         zerolinecolor: "#444"
     }
