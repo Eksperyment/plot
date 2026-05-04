@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
-<title>Mapa pobudzenia i wartościowania bodźców</title>
+<title>A two-dimensional map of experimental stimuli</title>
 <script src="https://cdn.plot.ly/plotly-2.30.0.min.js"></script>
 
 <style>
@@ -202,9 +202,9 @@ stimuli.forEach(d => {
     y.push(d.ar_mean);
     labels.push(d.id.toString());
     hover.push(
-        `<b>Bodziec ${d.id}</b><br>` +
-        `Wartościowanie: ${d.val_mean.toFixed(2)} ± ${d.val_sd.toFixed(2)}<br>` +
-        `Pobudzenie: ${d.ar_mean.toFixed(2)} ± ${d.ar_sd.toFixed(2)}`
+        `<b>Stimulus ${d.id}</b><br>` +
+        `Valance: ${d.val_mean.toFixed(2)} ± ${d.val_sd.toFixed(2)}<br>` +
+        `Arousal: ${d.ar_mean.toFixed(2)} ± ${d.ar_sd.toFixed(2)}`
     );
 });
 
@@ -224,16 +224,16 @@ Plotly.newPlot("plot", [{
         line: { color: "#000", width: 1 }
     }
 }], {
-    title: "Dwuwymiarowa mapa bodźców eksperymentalnych",
+    title: "A two-dimensional map of experimental stimuli",
     paper_bgcolor: "#111",
     plot_bgcolor: "#111",
     xaxis: {
-        title: "Wartościowanie (średnia)",
+        title: "Valance (mean)",
         color: "#eee",
         zerolinecolor: "#444"
     },
     yaxis: {
-        title: "Pobudzenie (średnia)",
+        title: "Arousal (mean)",
         color: "#eee",
         zerolinecolor: "#444"
     }
