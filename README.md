@@ -203,7 +203,7 @@ stimuli.forEach(d => {
     labels.push(d.id.toString());
     hover.push(
         `<b>Stimulus ${d.id}</b><br>` +
-        `Valance: ${d.val_mean.toFixed(2)} ± ${d.val_sd.toFixed(2)}<br>` +
+        `Valence: ${d.val_mean.toFixed(2)} ± ${d.val_sd.toFixed(2)}<br>` +
         `Arousal: ${d.ar_mean.toFixed(2)} ± ${d.ar_sd.toFixed(2)}`
     );
 });
