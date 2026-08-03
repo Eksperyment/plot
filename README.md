@@ -178,18 +178,6 @@ const stimuli = [
 {"id":152,"ar_mean":5.04,"ar_sd":1.830,"val_mean":2.23,"val_sd":1.308},
 {"id":153,"ar_mean":4.99,"ar_sd":1.710,"val_mean":2.41,"val_sd":1.463},
 {"id":154,"ar_mean":5.65,"ar_sd":1.673,"val_mean":1.92,"val_sd":1.310},
-{"id":161,"ar_mean":4.93,"ar_sd":1.952,"val_mean":2.55,"val_sd":1.480},
-{"id":162,"ar_mean":5.39,"ar_sd":1.892,"val_mean":2.37,"val_sd":1.414},
-{"id":163,"ar_mean":5.98,"ar_sd":1.695,"val_mean":1.86,"val_sd":1.255},
-{"id":164,"ar_mean":4.58,"ar_sd":2.199,"val_mean":2.80,"val_sd":1.571},
-{"id":165,"ar_mean":4.86,"ar_sd":2.030,"val_mean":2.67,"val_sd":1.530},
-{"id":166,"ar_mean":4.90,"ar_sd":2.073,"val_mean":2.32,"val_sd":1.650},
-{"id":167,"ar_mean":5.72,"ar_sd":1.826,"val_mean":1.82,"val_sd":1.202},
-{"id":168,"ar_mean":5.78,"ar_sd":1.714,"val_mean":1.88,"val_sd":1.367},
-{"id":169,"ar_mean":4.54,"ar_sd":2.036,"val_mean":2.78,"val_sd":1.607},
-{"id":170,"ar_mean":5.31,"ar_sd":1.764,"val_mean":2.07,"val_sd":1.287},
-{"id":171,"ar_mean":5.70,"ar_sd":1.746,"val_mean":1.93,"val_sd":1.189},
-{"id":172,"ar_mean":5.50,"ar_sd":1.960,"val_mean":2.04,"val_sd":1.353},
 ];
 
 const x = [];
